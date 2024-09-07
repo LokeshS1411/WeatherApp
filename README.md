@@ -31,7 +31,7 @@ This project is a **Weather Application** built using **React.js**, which fetche
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/weather-app.git
+git clone https://github.com/LokeshS1411/WeatherApp.git
 ```
 
 2. Navigate to the project directory:
@@ -69,6 +69,7 @@ The app will be running at `http://localhost:5173/`.
 - You can view the weather information for any location around the world.
 
 ## Screenshots
+![Uploading image.png…]()
 
 
 
