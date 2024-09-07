@@ -46,14 +46,6 @@ cd weather-app
 npm install
 ```
 
-4. Obtain your **API Key** from the weather service provider (like [OpenWeather](https://openweathermap.org/api)).
-
-5. Create a `.env` file in the root directory and add your API key:
-
-```bash
-REACT_APP_WEATHER_API_KEY=your_api_key_here
-```
-
 6. Start the development server:
 
 ```bash
@@ -69,7 +61,8 @@ The app will be running at `http://localhost:5173/`.
 - You can view the weather information for any location around the world.
 
 ## Screenshots
-![Uploading image.png…]()
+![Uploading weather.png…]()
+
 
 
 
