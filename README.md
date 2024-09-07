@@ -60,15 +60,10 @@ The app will be running at `http://localhost:5173/`.
 - The app will fetch and display the current weather, including temperature, weather description, humidity, etc.
 - You can view the weather information for any location around the world.
 
-## Screenshots
-![Uploading weather.png…]()
 
 
+![weather](https://github.com/user-attachments/assets/0d6be277-81c0-4d90-a364-d55d1c96fc62)
 
-
-## API Reference
-
-- **OpenWeather API**: [Link to API documentation](https://openweathermap.org/api)
 
 
 
