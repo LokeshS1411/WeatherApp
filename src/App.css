@@ -1,0 +1,147 @@
+*{
+   
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+  padding: 0%;
+  margin: 0%;
+   height: 100vh;
+   width: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color:#2f3640;
+}
+.container {
+  width: 350px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 6px 7px #0b0b0b;
+  margin-left: 800px;
+}
+.input-container{
+  display: flex;
+  border: 2px solid aqua;
+  padding: 3px;
+  border-radius: 7px;
+  overflow: hidden;
+}
+img{
+  height: 25px;
+  width: 25px;
+  /* position: relative;
+  bottom: 17px;
+  left: 138px;
+  cursor: pointer; */
+
+}
+.Search{
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 15px;
+  
+}
+.search-icon{
+  margin-left: 120px;
+  margin-top: 13px;
+  cursor: pointer;
+}
+.SunImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.SunImg img{
+  height: 300px;
+  width: 300px;
+}
+div.Image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.Image img{
+  height: 300px;
+  width: 300px;
+}
+.temp,.city,.country{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.temp{
+  font-weight: 600;
+}
+.city{
+  color:#ffbc00;
+}
+.country{
+  font-size: 25px; 
+}
+.cord{
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+}
+div.lat,div.lot{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.cord div span:nth-child(2){
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 10px;
+  font-size: 26px;
+}
+span{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.hum-wind{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.hum-wind img{
+  margin-left: 10px;
+  height: 40px;
+  width: 55px;
+}
+.hum-per{
+  margin-top: 10px;
+  margin-left: 25px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.hum-name{
+  margin-left: 2px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.wind-per{
+  margin-bottom: 10px !important;
+  margin-left: 25px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.wind-img img{
+  height: 50px !important;
+  width: 50px !important;
+  margin-left: 30px;
+}
+.city-not-found,.error-msg,.loading-msg{
+  color: #2f3640;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 10px;
+}
